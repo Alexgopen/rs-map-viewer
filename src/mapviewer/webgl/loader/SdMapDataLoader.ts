@@ -624,7 +624,7 @@ export class SdMapDataLoader implements RenderDataLoader<SdMapLoaderInput, SdMap
             createObjSceneModels(objModelLoader, sceneModels, scene, borderSize, objSpawns);
         }
 
-        addSceneModels(this.modelHashBuf!, textureLoader, sceneBuf, sceneModels, minimizeDrawCalls);
+        //addSceneModels(this.modelHashBuf!, textureLoader, sceneBuf, sceneModels, minimizeDrawCalls);
 
         // Animated locs
         const locsAnimated = sceneBuf.addLocAnimatedGroups(locAnimatedGroups);

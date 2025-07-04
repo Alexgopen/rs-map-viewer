@@ -124,6 +124,8 @@ export class SceneBuffer {
 
         const terrainStartVertexCount = this.vertexCount();
         for (let level = 0; level < scene.levels; level++) {
+            console.log("Level " + level);
+            if (level != 0) continue;
             const indexOffset = this.indexByteOffset();
             for (let x = startX; x < endX; x++) {
                 for (let y = startY; y < endY; y++) {
